@@ -4,18 +4,22 @@
 
 Bem-vindo à organização oficial do **Vibe**, um ecossistema desenvolvido para entusiastas de esportes que buscam praticidade na organização de partidas, desde o racha de futebol até o beach tennis.
 
-## 🛠️ Nossa Stack Técnica
-Focamos em tecnologias modernas e padrões de arquitetura de alta escala:
-* **Backend:** Kotlin + Spring Boot 3.x (Modular Monolith / Microservices ready)
-* **Mobile:** Flutter (Cross-platform)
-* **Persistência:** MongoDB (Geospatial Indexing + Change Streams)
-* **Mensageria:** RabbitMQ (Transactional Outbox Pattern)
+## 🚀 Diferenciais Técnicos
+Para garantir uma experiência fluida (real-time) e sem perda de dados, o projeto utiliza padrões de arquitetura modernos:
+* Transactional Outbox Pattern: Garante a consistência entre o banco de dados (MongoDB) e o sistema de mensageria (RabbitMQ), assegurando que cada inscrição gere uma notificação confiável.
+* Geospatial Indexing: Consultas de alta performance baseadas em GeoJSON para encontrar partidas em um raio específico do usuário.
+* Event-Driven Architecture: Processamento assíncrono para notificações push, encerramento de inscrições e fluxos de pagamento.
 
-## 🎯 Objetivo da Organização
-Este espaço serve como o laboratório de desenvolvimento do Vibe, onde aplicamos conceitos avançados de:
-- [x] Domain-Driven Design (DDD)
-- [x] Event-Driven Architecture
-- [x] Consistência Eventual e Resiliência de Dados
+## 🏗️ Stack Tecnológica
+* Mobile: Flutter (Android/iOS)
+* Backend: Kotlin + Spring Boot 3.x
+* Database: MongoDB (Replica Set para Transações e Change Streams)
+* Message Broker: RabbitMQ
+* Cache/Locks: Redis
 
----
-📍 Curitiba, PR - Brasil
+## 🗺️ Roadmap de Engenharia
+- [ ] Setup do Monolito Modular (Spring Boot + Mongo)
+- [ ] Implementação do MatchService com índices Geoespaciais
+- [ ] Engine de Mensageria com Outbox Pattern
+- [ ] MVP Flutter: Listagem de partidas por geolocalização
+- [ ] Integração com Gateway de Pagamentos (Pix)
