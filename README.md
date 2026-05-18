@@ -23,3 +23,19 @@ Para garantir uma experiência fluida (real-time) e sem perda de dados, o projet
 - [ ] Engine de Mensageria com Outbox Pattern
 - [ ] MVP Flutter: Listagem de partidas por geolocalização
 - [ ] Integração com Gateway de Pagamentos (Pix)
+
+## MVP
+- Tela de Login
+- Cadastro pelo google e facebook
+- Bottom Menu - Tela Mapa
+  - botão Listagem de partidas proximas
+  - botão criar partida
+  - tela detalhar informações partida (inscrever na partida)
+- Bottom Menu - Tela Perfil (Deslogar, alterar do perfil, suporte, notificacoes, informações)
+- Notificações
+- Chat dentro do estádio/quadra/ginásio
+- Criar estádio/quadra/ginásio (back)
+
+## Ideias
+- Menu - Preferencias (priorizar tipo de esporte, escolher genero para praticar esporte)
+- Criar time (logo, nome, jogadores, jogos, eventos que vão participar, posts)
