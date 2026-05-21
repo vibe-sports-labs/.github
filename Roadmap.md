@@ -32,7 +32,7 @@ Este documento consolida o planejamento estratégico de engenharia e os requisit
 Componente de navegação inferior estruturado para gerenciar e persistir o estado de duas abas de domínio principais:
 
 #### Aba 1: Tela do Mapa (Geolocalização)
-* **Mapa Interativo:** Exibição em tempo real de partidas e quadras próximas na região de Curitiba através de marcadores personalizados (*Pins*), alimentados dinamicamente via consumo assíncrono do endpoint `/nearby`.
+* **Mapa Interativo:** Exibição em tempo real de partidas e quadras próximas na região através de marcadores personalizados (*Pins*), alimentados dinamicamente via consumo assíncrono do endpoint `/nearby`.
 * **Alternador de Visão (Toggle):** Gatilho na interface para transicionar instantaneamente os dados geográficos do mapa para uma listagem vertical clássica baseada em componentes performáticos (*Cards*).
 * **Fluxo de Criação:** Formulário ou modal interativo para parametrização e publicação de novas partidas (`POST /api/v1/matches`).
 * **Detalhes do Evento:** Tela rica consolidando informações gerais do jogo, dados do organizador, vagas restantes e o botão de ação rápida para inscrição imediata na partida (`PATCH /join`).
