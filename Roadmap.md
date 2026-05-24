@@ -45,6 +45,10 @@ Componente de navegação inferior estruturado para gerenciar e persistir o esta
     * *Suporte Técnico* (canal direto de atendimento).
     * *Informações Legais* (versão estável e termos de uso do ecossistema).
     * *Logout*: Gatilho para limpeza de cache e tokens de sessão de forma segura.
+ 
+## 4. Arquitetura de Fluxo de Dados
+<img width="753" height="478" alt="image" src="https://github.com/user-attachments/assets/be2cb8c8-e654-4427-a0e3-40e83e8d400c" />
+
 
 ### 💬 Engajamento em Tempo Real
 * **Chat de Arena:** Interface de mensagens em tempo real acoplada de forma exclusiva ao identificador do complexo esportivo/partida, utilizando conexões persistentes via `ktor-client-websockets`.
